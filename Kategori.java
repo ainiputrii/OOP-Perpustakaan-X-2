@@ -17,7 +17,11 @@ public class Kategori {
  
     public Buku[] getDaftarBuku() { 
         return daftarBuku; 
-    } 
+    }
+    
+    public Buku getBuku(int index) {
+        return daftarBuku[index];
+    }
 
     public void tampilkanData() {
         System.out.println("\nKategori: " + namaKategori);
@@ -31,3 +35,4 @@ public class Kategori {
         }
     }
 } 
+
