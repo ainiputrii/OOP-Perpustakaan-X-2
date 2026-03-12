@@ -14,24 +14,13 @@ public class Main {
         kategoriList[6] = new Kategori("Fiksi", 5);
 
         //contoh menggunakan sinopsis
-        kategoriList[0].setBuku(0, new Buku("Dasar Pemrograman", 2020, new Penulis[]{new Penulis("Andi")}, 
-            "Buku ini menjelaskan dasar dasar pemrograman komputer untuk pemula agar memahami logika coding"));
-        kategoriList[0].setBuku(1, new Buku("Algoritma", 2021, new Penulis[]{new Penulis("Budi")}, 
-            "Buku ini membahas konsep algoritma pemrograman dan cara menyelesaikan masalah menggunakan logika terstruktur"));
-        kategoriList[0].setBuku(2, new Buku("Jaringan Komputer", 2019, new Penulis[]{new Penulis("Citra")}, 
-            "Buku ini menjelaskan konsep jaringan komputer perangkat jaringan dan cara komunikasi data antar komputer"));
-        kategoriList[0].setBuku(3, new Buku("AI Modern", 2023, new Penulis[]{new Penulis("Dewi")}, 
-            "Buku ini membahas perkembangan kecerdasan buatan modern serta penerapannya dalam teknologi masa kini"));
-        kategoriList[0].setBuku(4, new Buku("Sistem Informasi", 2018, new Penulis[]{new Penulis("Rian")}, 
-            "Buku ini menjelaskan sistem informasi organisasi pengolahan data dan pemanfaatan teknologi informasi"));
-
-        //tidak menggunakan sinopsis
         kategoriList[0].setBuku(0, new Buku("Dasar Pemrograman", 2020, new Penulis[]{new Penulis("Andi")}, "Buku ini menjelaskan dasar dasar pemrograman komputer untuk pemula agar memahami logika coding"));
         kategoriList[0].setBuku(1, new Buku("Algoritma", 2021, new Penulis[]{new Penulis("Budi")}, "Buku ini membahas konsep algoritma pemrograman dan cara menyelesaikan masalah menggunakan logika terstruktur"));
         kategoriList[0].setBuku(2, new Buku("Jaringan Komputer", 2019, new Penulis[]{new Penulis("Citra")}, "Buku ini menjelaskan konsep jaringan komputer perangkat jaringan dan cara komunikasi data antar komputer"));
         kategoriList[0].setBuku(3, new Buku("AI Modern", 2023, new Penulis[]{new Penulis("Dewi")}, "Buku ini membahas perkembangan kecerdasan buatan modern serta penerapannya dalam teknologi masa kini"));
         kategoriList[0].setBuku(4, new Buku("Sistem Informasi", 2018, new Penulis[]{new Penulis("Rian")}, "Buku ini menjelaskan sistem informasi organisasi pengolahan data dan pemanfaatan teknologi informasi"));
 
+        //tidak menggunakan sinopsis
         kategoriList[1].setBuku(0, new Buku("Pancasila", 2020, new Penulis[]{new Penulis("Nina")}, ""));
         kategoriList[1].setBuku(1, new Buku("Filsafat Modern", 2021, new Penulis[]{new Penulis("Omar")}, ""));
         kategoriList[1].setBuku(2, new Buku("Filsafat Klasik", 2019, new Penulis[]{new Penulis("Putu")}, ""));
@@ -73,3 +62,4 @@ public class Main {
         }
     }
 }
+
