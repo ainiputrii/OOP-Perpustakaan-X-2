@@ -60,6 +60,21 @@ public class Main {
         for (Kategori kategori : kategoriList) {
             kategori.tampilkanData();
         }
+
+        Buku buku1 = kategoriList[0].getBuku(0);
+        Buku buku2 = kategoriList[0].getBuku(1);
+
+        //hitung sinopsis
+        System.out.println("\nJumlah kata sinopsis buku1: " + buku1.hitungJumlahKataSinopsis());
+
+        //cek kesamaan 
+        double kesamaan = buku1.cekKesamaan(buku2);
+        System.out.println("Kesamaan buku1 dan buku2: " + kesamaan + "%");
+
+        //copy buku
+        Buku bukuCopy = buku1.copy();
+        System.out.println("Judul buku hasil copy: " + bukuCopy.getJudul());
     }
 }
+
 
