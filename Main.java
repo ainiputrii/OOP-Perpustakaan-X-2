@@ -76,5 +76,3 @@ public class Main {
         System.out.println("Judul buku hasil copy: " + bukuCopy.getJudul());
     }
 }
-
-
